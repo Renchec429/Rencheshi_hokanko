@@ -1,7 +1,7 @@
 /* 背景設定 */
 body {
   background-image:
-  　url('assets/wizards-observatory.jpg'),   /* 1枚目：奥の背景 */
+    url('assets/wizards-observatory.jpg'),   /* 1枚目：奥の背景 */
     url('assets/apng_dust_up.png');          /* 2枚目：奥の背景 */
   background-size: cover;                    /* 画面全体にフィット */
   background-repeat: no-repeat;              /* 繰り返さない */
@@ -25,6 +25,7 @@ button {
 #character-area {
   margin-top: 20px;
 }
+
 
 
 
