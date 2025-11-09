@@ -1,6 +1,6 @@
 /* 背景設定 */
 body {
-  background-image:url('assets/wizards-observatory.jpg'),   /* 1枚目：奥の背景 */
+  background-image:url('assets/wizards-observatory.jpg');/* 1枚目：奥の背景 */
   background-size: cover;                    /* 画面全体にフィット */
   background-repeat: no-repeat;              /* 繰り返さない */
   background-position: center;               /* 中央に配置 */
@@ -36,6 +36,7 @@ button {
 #character-area {
   margin-top: 20px;
 }
+
 
 
 
