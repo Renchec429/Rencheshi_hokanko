@@ -1,6 +1,6 @@
 /* 背景設定 */
 body {
-  background-image: url('assets/魔法使いの天文台.png'); /* 背景画像 */
+  background-image: url('assets/魔法使いの天文台.jpg'); /* 背景画像 */
   background-size: cover;       /* 画面全体にフィット */
   background-repeat: no-repeat; /* 繰り返さない */
   background-position: center;  /* 中央に配置 */
@@ -22,6 +22,7 @@ button {
 #character-area {
   margin-top: 20px;
 }
+
 
 
 
