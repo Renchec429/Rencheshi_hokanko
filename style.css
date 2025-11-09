@@ -4,6 +4,7 @@ body {
   background-size: cover;       /* 画面全体にフィット */
   background-repeat: no-repeat; /* 繰り返さない */
   background-position: center;  /* 中央に配置 */
+  min-height: 100vh;
 }
 
 /* フォント設定 */
@@ -22,6 +23,7 @@ button {
 #character-area {
   margin-top: 20px;
 }
+
 
 
 
