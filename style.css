@@ -1,25 +1,3 @@
-/* 背景設定 */
-body {
-  background-image:url('assets/wizards-observatory.jpg');/* 1枚目：奥の背景 */
-  background-size: cover;                    /* 画面全体にフィット */
-  background-repeat: no-repeat;              /* 繰り返さない */
-  background-position: center;               /* 中央に配置 */
-  min-height: 100vh;
-}
-
-body {
-  background: url('assets/apng_dust_up.jpg') center/cover no-repeat;
-}
-
-.overlay {
-  position: fixed;   /* 背景の上に固定 */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none; /* クリック操作を邪魔しない */
-}
-
 /* フォント設定 */
 body {
   font-family: sans-serif;
@@ -36,6 +14,7 @@ button {
 #character-area {
   margin-top: 20px;
 }
+
 
 
 
