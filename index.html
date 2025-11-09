@@ -2,12 +2,41 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>限定公開サイト</title>
+  <title>TRPGキャラ保管庫</title>
   <meta name="robots" content="noindex, nofollow">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* 奥の背景 */
+    body {
+      margin: 0;
+      background: url('assets/wizards-observatory.jpg') center/cover no-repeat;
+      min-height: 100vh;
+    }
+
+    /* 手前のAPNGを重ねる */
+    .overlay {
+      position: fixed;   /* 背景の上に固定 */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none; /* クリック操作を邪魔しない */
+    }
+
+    .overlay img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* 画面にフィット */
+    }
+  </style>
 </head>
 <body>
+  <!-- 手前のAPNG -->
+  <div class="overlay">
+    <img src="assets/apng_dust_up.png" alt="dust effect">
+  </div>
   <h1>こんにちは！</h1>
   <p>これは最初のWebページです。</p>
 </body>
 </html>
+
